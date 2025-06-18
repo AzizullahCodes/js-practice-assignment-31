@@ -615,4 +615,61 @@ End of js-problem-solving-practice-assignment-31
 // }
 // ________________________________________________________________________________________
 // ques no 33
-// 
+// Scenario Analysis: You have a global variable x initialized to 10. You then
+//  define a function modifyX that declares a new variable, also named x, 
+// inside its scope and initializes it to 5. Inside modifyX, you increment 
+// this local x by 1. After calling modifyX, what is the value of 
+// the global x? Why?
+// ans 
+// var x = 10;
+// function modifyX(){var x = 5;
+//        x = x +1;
+//   console.log('local',x);
+//   window.x = window.x + 100;
+// }
+// modifyX();
+// console.log('global',x)
+// ___________________________________________________________________________________
+// ques no 34
+// Scope and Hoisting (Implicit Globals): Consider a function createMessage. 
+// Inside this function, you assign a value to a variable message without 
+// using var, let, or const. After the function executes, can you access 
+// message outside the function? If so, what is its scope? If not, why? 
+// What is the recommended practice to avoid this behavior?
+// ans 
+// function createMessage(message){message = 'hello';
+//   console.log(message);
+//   message = message + ' My dear';
+//   console.log(message)
+// }
+// createMessage();
+// ____________________________________________________________________________________
+// ques no 35
+// Parameter vs. Global: You have a global variable count set to 0.
+//  You define a function incrementCount that takes one parameter,
+//  also named count. Inside the function, you increment this parameter
+//  count by 1. After calling incrementCount with the global count as an 
+// argument, what is the value of the global count? Explain your reasoning.
+// ans 
+// var  count = 0;
+// function increaseCounter(count){var count = count + 1;
+//   console.log(count);
+// }
+// increaseCounter(count);
+// console.log(count);
+// _________________________________________________________________________________________
+// ques no 36 
+// Reassignment vs. New Declaration:
+
+// You have a global variable data = "Global Data".
+// Inside a function processData, you write data = "Local Data".
+// What is the value of data outside the function after processData is called?
+// Now, if inside processData you wrote let data = "Local Data", what would be
+//  the value of data outside the function after processData is called? 
+// Explain the difference in behavior.
+// var data = 'Global Data';
+// function processData(){let data = 'Local Data';
+//   console.log('local', data)
+// }
+// processData();
+// console.log(data);
