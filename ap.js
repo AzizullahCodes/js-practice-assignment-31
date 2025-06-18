@@ -494,16 +494,125 @@ End of js-problem-solving-practice-assignment-31
 // onclick event practice
 // ans
 // Function to perform a series of calculations
-function calculation(a, b, c, d, e, f) {
-  let sum = a + b;
-  let multiply = sum * c;
-  let divide = multiply / d;
-  let subtract = divide - e;
-  let average = a + b + c + d + e / f;
-  console.log(average);
+// function calculation(a, b, c, d, e, f) {
+//   let sum = a + b;
+//   let multiply = sum * c;
+//   let divide = multiply / d;
+//   let subtract = divide - e;
+//   let average = a + b + c + d + e / f;
+//   console.log(average);
 
-}
+// }
 // we call function in index.html and pass argument by onclick event by 
 // button
 //  <button onclick="calculation(2,3,2,2,1,4)"></button>
+// ________________________________________________________________________________________
+// ques no 25
+// Description:
 
+// Create a button.
+
+// When you click the button, a function runs.
+
+// The function logs “Button clicked!” and the current date/time to the console.
+
+// ans 
+// function date(){console.log(new date())
+// }
+ // Function called by onclick event
+   // Function called by onclick event
+  // function showMessage(result2) {
+  //   console.log("Button clicked!");
+  //   let result = new Date();
+  //      result = result.toLocaleDateString();
+  //   console.log(result);
+   
+  // }
+  // ________________________________________________________________________________
+  // ques no 26
+  // Question:
+
+// Create a function named performCalculations that takes six numerical 
+// : num1, num2, num3, num4, num5, and num6.
+
+// Inside this function, perform the following operations:
+
+// Calculate the sum of num1 and num2.
+// Multiply the sum by num3 to get product.
+// Divide the product by num4 to get quotient.
+// Subtract num5 from the quotient to get difference.
+// Calculate the average of all six numbers (num1 + num2 + num3 + num4 + num5 divided by num6).
+// Finally, log only the average to the console.
+
+// Task:
+
+// Call this performCalculations function using an onclick event on an HTML button. Pass the following arguments to the function: 2, 3, 2, 2, 1, 4.
+// ans 
+// function performCalculations(num1,num2,num3,num4,num5){let sum = num1 + num2;
+//   let product = sum * num3;
+//   let quotient = product / num4;
+//   let difference = quotient - num5;
+//   let average = num1 + num2 + num3 + num4 + num5 /5;
+//   console.log(average);}
+// _____________________________________________________________________________________
+// ques no 27
+// Temperature Converter
+// Question:
+// Create a JavaScript function called convertCelsiusToFahrenheit that takes one numerical argument: celsius. Inside this function, convert the Celsius temperature to Fahrenheit using the
+//  formula: Fahrenheit = (Celsius * 9/5) + 32. Log only the calculated Fahrenheit temperature to the console.
+
+// Task:
+
+// Create an HTML button. When this button is clicked, it should call the convertCelsiusToFahrenheit function, passing 25 as the argument.
+// ans 
+// function convertCelsiusToFahrenheit(celsius){let Fahrenheit = (celsius * 9/5)+32;
+//   console.log(Fahrenheit);
+// };
+// __________________________________________________________________________________________
+// ques no 28
+//  Simple Greeting Generator
+// Question:
+// Create a JavaScript function called greetUser that takes two string arguments: firstName and lastName. Inside this function, construct a greeting message in the format: "Hello, [firstName] [lastName]! Welcome to our page." Log only this complete greeting message to the console.
+
+// Task:
+
+// Create an HTML button. When this button is clicked, it should call the greetUser function, passing "Alice" as the firstName and "Smith" as the lastName.
+// function greetUser(firstName,lastName){let message = 'Hello '+firstName +' ' + lastName +' ' + 'welcome to our page';
+//   console.log(message);
+// }
+// ---------------------------------------------------------------------------------------------
+// ques no 29
+// 
+// Create a JavaScript function called calculateRectangleArea that takes two numerical arguments: length and width. Inside this function, calculate the area of a rectangle using the formula: Area = length * width. Log only the calculated area to the console.
+
+// Create an HTML button. When this button is clicked, it should call the calculateRectangleArea function, passing 10 as the length and 5 as the width.
+// ans 
+// function calculateRectangleArea (length,width){let area = length * width;
+//   console.log(area);
+// }
+// ___________________________________________________________________________________________
+// ques no 31
+// Even or Odd Checker
+// Create a JavaScript function called checkEvenOrOdd that takes one numerical argument: number. Inside this function, determine if the number is even or odd. If it's even, log "The number [number] is Even." to the console. If it's odd, log "The number [number] is Odd." to the console.
+
+// Task:
+
+// Create an HTML button. When this button is clicked, it should call the checkEvenOrOdd function, passing 7 as the argument.
+// ans 
+// function checkEvenOrOdd(number){if(number % 2 === 0){console.log('Number is even')}
+// else{console.log('odd')}}
+// _______________________________________________________________________________________
+// ques no 32
+// Discount Calculator
+// Create a JavaScript function called calculateDiscountedPrice that takes two numerical arguments: originalPrice and discountPercentage. Inside this function, calculate the 
+// discounted amount: Discount = originalPrice * (discountPercentage / 100). Then, calculate the finalPrice: finalPrice = originalPrice - Discount. Log only the finalPrice to the console.
+
+// Create an HTML button. When this button is clicked, it should call the calculateDiscountedPrice function, passing 150 as the originalPrice and 20 as the discountPercentage.
+// ans 
+// function calculateDiscountedPrice(originalPrice,discountPercentage){let discount = originalPrice * (discountPercentage / 100);
+//   let finalPrice = originalPrice - discount;
+//   console.log(finalPrice);
+// }
+// ________________________________________________________________________________________
+// ques no 33
+// 
