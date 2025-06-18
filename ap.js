@@ -712,18 +712,18 @@ End of js-problem-solving-practice-assignment-31
 // ques no 40 
 // access global variable inside function 
 // ans 
-// var number = 100;
-// function acessVariable(){var number = 2;
-//   console.log('local variable',number);
-//   console.log('global variable',window.number)}
-//   acessVariable()
+ var number = 100;
+ function acessVariable(){var number = 2;
+   console.log('local variable',number);
+   console.log('global variable',window.number)}
+   acessVariable()
 // _____________________________________________________________________________
 // ques no 41
 // onclick event practice:
 // ans 
-// function calculation(num1,num2){let sum = num1 + num2;
-//   console.log(sum);
-// }
+ function calculation(num1,num2){let sum = num1 + num2;
+console.log(sum);
+}
 // ________________________________________________________________________________________
 // ques no 42
 // unction:
@@ -805,4 +805,103 @@ End of js-problem-solving-practice-assignment-31
 //   console.log(add);
 //   let division = add / u;
 //   console.log(division);}
+// ________________________________________________________________________________________
+// ques no 45
+// Simple Local vs Global
+// Create a global variable name with the value "Ali".
 
+// Create a function greet that declares a local variable name with the value "Ahmed".
+
+// Inside the function, console.log the local name.
+
+// Outside the function, console.log the global name.
+
+
+// ans 
+// var name = 'Ali';
+// function greet(){var name = 'Ahmed';
+//   console.log('the local name',name)
+// }
+// greet();
+// console.log(name)
+// _______________________________________________________________________________
+// ques no 46
+// Modify Global in Function
+// Create a global variable counter with value 0.
+
+// Create a function incrementCounter that adds 1 to the global counter.
+
+// Call the function 5 times.
+
+// After that, console.log the global counter.
+// ans 
+// var counter = 0;
+// function increaseCounter()
+// {counter = counter + 1;
+//   console.log(counter)
+// }
+// increaseCounter()
+// _____________________________________________________________________________________
+// ques no 47
+//  Same Name, Different Scope
+// Declare a global variable message with value "Good Morning!".
+
+// Create a function changeMessage:
+
+// Inside, declare a local variable message with value "Good Night!".
+
+// Log the local message inside the function.
+
+// Call the function.
+
+// Log the global message outside the function.
+// ans 
+// var message = 'Good Morning!';
+// function changeMessage(){var message = 'Good Night!';
+//   console.log('local message',message);
+// }
+// changeMessage();
+// console.log('global message',message)
+// ____________________________________________________________________________________
+// ques no 48
+// Access Global and Local Together
+// Create a global variable firstName with "Ali".
+// Create a function fullName:
+// Inside, create a local variable lastName with "Khan".
+// Log firstName + " " + lastName.
+// Call the function.
+// ans 
+// var firstName = 'Ali';
+// function fullName(){var lastName = 'Khan';
+//   var result = firstName + ' ' + lastName;
+//   console.log(result);
+// }
+// fullName();
+// ______________________________________________________________________________________
+// ques no 49 
+// Global Modification vs Local Only
+// Make a global variable score with value 100.
+// Write two functions:
+// addBonus: adds 50 to the global score.
+// temporaryBonus: creates a local variable score with value 200 and logs it.
+// Call both functions.
+// Log the global score.
+// ans 
+// var score = 100;
+// function addBonus(){score = score + 50;
+//   console.log(score);
+// }
+// addBonus();
+// function temporaryBonus(){var score = 200;
+//   console.log(score);
+// }
+// temporaryBonus();
+// _____________________________________________________________________________________
+// ques no 50
+// call local variable outside function;
+// ans
+// function calculation(num1,num2,num3,num4){let sum = num1 + num2 + num3 + num4;
+//   return sum;
+// }
+// let final = calculation(2,4,5,100);
+// console.log(final);
