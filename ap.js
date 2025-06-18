@@ -673,3 +673,54 @@ End of js-problem-solving-practice-assignment-31
 // }
 // processData();
 // console.log(data);
+// ___________________________________________________________________________________
+// ques no 37
+// global varialbe
+// ans 
+// var name = 'Azizullah';
+// function greet(nam){var message = 'Welcome' + ' ' + nam;
+//   console.log(message);
+//   console.log(name);
+// }
+// greet('Ali');
+// console.log(message);
+// // ap.js:686 Uncaught ReferenceError: message is not defined
+//     // at ap.js:686:13
+
+// ______________________________________________________________________________________
+// ques no 38 
+// call local variable outside function
+// ans 
+// function add(num1,num2){let sum = num1 + num2;
+//   return sum;
+// }
+//  let sum2 = add(4,8);
+// console.log(sum2);
+// _______________________________________________________________________________________
+// ques no 39
+// modification of local variable inside a function
+// ans 
+// var number = 2;
+// function modification(){var number = 5;
+//   console.log('Local number',number);
+//   window.number = window.number + 100;
+
+// }
+// modification();
+// console.log('global number',number)
+// ____________________________________________________________________________
+// ques no 40 
+// access global variable inside function 
+// ans 
+// var number = 100;
+// function acessVariable(){var number = 2;
+//   console.log('local variable',number);
+//   console.log('global variable',window.number)}
+//   acessVariable()
+// _____________________________________________________________________________
+// ques no 41
+// onclick event practice:
+// ans 
+function calculation(num1,num2){let sum = num1 + num2;
+  console.log(sum);
+}
