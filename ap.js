@@ -721,6 +721,88 @@ End of js-problem-solving-practice-assignment-31
 // ques no 41
 // onclick event practice:
 // ans 
-function calculation(num1,num2){let sum = num1 + num2;
-  console.log(sum);
-}
+// function calculation(num1,num2){let sum = num1 + num2;
+//   console.log(sum);
+// }
+// ________________________________________________________________________________________
+// ques no 42
+// unction:
+
+// Create a function named calculateValues that takes five numbers: a, b, c, d, e.
+
+// Inside the function:
+
+// Add a and b.
+
+// Multiply the sum by c.
+
+// Divide the result by d.
+
+// Find the remainder when dividing by e.
+
+// Log only the remainder to the console.
+// ans 
+// function calculateValues(a,b,c,d,e){let add = a + b;
+//   console.log(add);
+//   let multiply = add * c;
+//   console.log(multiply);
+//   let divide = multiply / d;
+//   console.log(divide);
+//   let remainder = divide % e;
+//   console.log(remainder);
+// }
+// _____________________________________________________________________________________
+// ques no 43
+// Create a function named processNumbers that takes four numbers: x, y, z, w.
+
+// Inside the function:
+
+// Subtract y from x.
+
+// Multiply the result by z.
+
+// Divide by w.
+
+// Log only the final result to the console.
+// ans 
+// function processNumbers(x,y,z,w){let subtract = x - y;
+//   console.log(subtract);
+//   let multiply = subtract * z;
+//   console.log(multiply);
+//   let divide = multiply / w;
+//   console.log(divide);}
+// _______________________________________________________________________________________
+// ques no 44
+// Create a function named doMathOperations that takes six numbers: p, q, r, s, t, u.
+
+// Inside the function:
+
+// Add p and q.
+
+// Subtract r from the sum.
+
+// Multiply the result by s.
+
+// Add t to it.
+
+// Divide the total by u.
+
+// Log only the final value to the console.
+
+// Call:
+
+// Call this function using an onclick event on a button.
+
+// Pass the arguments: 4, 6, 3, 2, 5, 2
+// ans 
+// function doMathOperations(p,q,r,s,t,u){let sum = p + q;
+//   console.log(sum);
+//   let subtract = sum - r ;
+//   console.log(subtract);
+//   let multip = subtract * s;
+//   console.log(multip);
+//   let add = multip + t;
+//   console.log(add);
+//   let division = add / u;
+//   console.log(division);}
+
