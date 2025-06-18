@@ -464,3 +464,46 @@ End of js-problem-solving-practice-assignment-31
 // }
 // addFruit();
 // console.log('global',fruit)
+// ___________________________________________________________________________________
+// ques no 22
+// onclick event
+// ans 
+//  function add(a,b){var sum = a +b;
+// console.log(sum);
+// var subtract = a - b;
+// console.log(subtract);
+// var multiply = a * b;
+// console.log(multiply);
+// var finalResult = (sum + subtract + multiply)/3;
+// console.log(finalResult);
+
+//  }
+// ____________________________________________________________________________________
+// ques no 23
+// onclick practice
+// ans
+// function merge(x,y,z,u){let a = x +' ' + y;
+//   console.log(a);
+//   let b = a + ' ' + z;
+//   console.log(b);
+//   let c = b + ' ' + u;
+//   console.log(c)
+// }
+// _________________________________________________________________________________
+// ques no 24;
+// onclick event practice
+// ans
+// Function to perform a series of calculations
+function calculation(a, b, c, d, e, f) {
+  let sum = a + b;
+  let multiply = sum * c;
+  let divide = multiply / d;
+  let subtract = divide - e;
+  let average = a + b + c + d + e / f;
+  console.log(average);
+
+}
+// we call function in index.html and pass argument by onclick event by 
+// button
+//  <button onclick="calculation(2,3,2,2,1,4)"></button>
+
